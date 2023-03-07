@@ -15,3 +15,7 @@ def convertpdf():
         parse(pdfFileNmae, doc)
         
         return send_file(doc)
+
+@app.route('/', methods = ['GET'])  
+def get():        
+        return "|\---/|<br>|o_o |<br> \_^_/"
